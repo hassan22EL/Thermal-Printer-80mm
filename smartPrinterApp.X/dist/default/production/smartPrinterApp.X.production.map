@@ -1,0 +1,2301 @@
+Archive member included to satisfy reference by file (symbol)
+
+libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+                              (Reset_Handler)
+libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+                              libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o) (SystemInit)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+                              build/default/production/src/main.o (adc_disable)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+                              build/default/production/src/main.o (exti_event_disable)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                              build/default/production/src/main.o (gpio_event_output_disable)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+                              build/default/production/src/main.o (nvic_priority_group_set)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                              build/default/production/src/main.o (rcu_periph_clock_enable)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                              build/default/production/src/main.o (spi_disable)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+                              build/default/production/src/main.o (timer_disable)
+libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                              build/default/production/src/main.o (usart_disable)
+libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+                              build/default/production/src/main.o (usb_rcu_config)
+libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                              build/default/production/src/main.o (SysInit)
+libs\USBD\src\USBFS.X.a(printer_core.o)
+                              build/default/production/src/main.o (usbdRegisterToreadData)
+libs\USBD\src\USBFS.X.a(usbd_core.o)
+                              libs\USBD\src\USBFS.X.a(printer_core.o) (usbd_ep_setup)
+libs\USBD\src\USBFS.X.a(usbd_enum.o)
+                              libs\USBD\src\USBFS.X.a(usbd_core.o) (serial_string_get)
+libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+                              build/default/production/src/gd32f30x_it.o (usbd_isr)
+libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                              libs\USBD\src\USBFS.X.a(usbd_core.o) (usb_basic_init)
+libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                              libs\USBD\src\USBFS.X.a(usbd_core.o) (usb_devcore_init)
+libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                              libs\USBD\src\USBFS.X.a(drv_usbd_int.o) (usbd_setup_transc)
+libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                              build/default/production/src/main.o (escpos_esc_init)
+libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (escpos_cmd_main)
+libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (fifo_bytes_init)
+libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                              build/default/production/src/gd32f30x_it.o (printhead_timer1_isr)
+libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (PixelBufferInit)
+libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(font.o) (getFontWithBitmap)
+libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (usart_config)
+libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                              build/default/production/src/gd32f30x_it.o (isr_spi2_receiver)
+libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (UserStatusInit)
+libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (cut_Init)
+libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (u16TOASII)
+libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (FeedButtonInit)
+libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(font.o) (getCurrentstandFont)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (exit)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(font.o) (malloc)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o) (_malloc_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o) (__malloc_lock)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o) (_sbrk_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-strlen.o)
+                              libs\smartPrinter\src\smartPrinter.X.a(escpos.o) (strlen)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o) (_free_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o) (errno)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o) (_sbrk)
+c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .text          0x00000000       0x7c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.exidx     0x00000000       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .ARM.attributes
+                0x00000000       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .text          0x00000000        0x0 build/default/production/src/main.o
+ .data          0x00000000        0x0 build/default/production/src/main.o
+ .text          0x00000000        0x0 build/default/production/src/gd32f30x_it.o
+ .data          0x00000000        0x0 build/default/production/src/gd32f30x_it.o
+ .bss           0x00000000        0x0 build/default/production/src/gd32f30x_it.o
+ .text          0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf4 libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_deinit
+                0x00000000       0x48 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_dma_mode_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_dma_mode_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_tempsensor_vrefint_enable
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_tempsensor_vrefint_disable
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_resolution_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_discontinuous_mode_config
+                0x00000000       0x3c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_mode_config
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_special_function_config
+                0x00000000       0x5c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_data_alignment_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_channel_length_config
+                0x00000000       0x3c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_regular_channel_config
+                0x00000000       0xb4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_inserted_channel_config
+                0x00000000       0x6c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_inserted_channel_offset_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_external_trigger_config
+                0x00000000       0x40 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_external_trigger_source_config
+                0x00000000       0x2c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_software_trigger_enable
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_regular_data_read
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_inserted_data_read
+                0x00000000       0x28 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_sync_mode_convert_value_read
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_flag_get
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_flag_clear
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_interrupt_flag_get
+                0x00000000       0x40 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_interrupt_flag_clear
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_interrupt_enable
+                0x00000000       0x28 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_interrupt_disable
+                0x00000000       0x28 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_watchdog_single_channel_enable
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_watchdog_group_channel_enable
+                0x00000000       0x38 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_watchdog_disable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_watchdog_threshold_config
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_oversample_mode_config
+                0x00000000       0x34 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_oversample_mode_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text.adc_oversample_mode_disable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .text.exti_deinit
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .text.exti_event_enable
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .text.exti_software_interrupt_enable
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .text.exti_software_interrupt_disable
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .text.exti_flag_get
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .text.exti_flag_clear
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_deinit
+                0x00000000       0xd8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_afio_deinit
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_port_write
+                0x00000000        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_input_port_get
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_output_bit_get
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_output_port_get
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_ethernet_phy_select
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_event_output_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_event_output_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_pin_lock
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_compensation_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text.gpio_compensation_flag_get
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .text.nvic_vector_table_set
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .text.system_lowpower_set
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .text.system_lowpower_reset
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .text.systick_clksource_set
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_deinit
+                0x00000000       0x74 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_periph_clock_disable
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_periph_clock_sleep_enable
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_periph_clock_sleep_disable
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_periph_reset_enable
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_periph_reset_disable
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_bkp_reset_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_bkp_reset_disable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_ahb_clock_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_apb1_clock_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_apb2_clock_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_ckout0_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_pll_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_pllpresel_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_predv0_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_predv1_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_pll1_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_pll2_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_rtc_clock_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_i2s1_clock_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_i2s2_clock_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_ck48m_clock_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_lxtal_drive_capability_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_osci_stab_wait
+                0x00000000      0x124 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_osci_off
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_osci_bypass_mode_enable
+                0x00000000       0x38 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_osci_bypass_mode_disable
+                0x00000000       0x38 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_irc8m_adjust_value_set
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_hxtal_clock_monitor_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_hxtal_clock_monitor_disable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_deepsleep_voltage_set
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_all_reset_flag_clear
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_interrupt_flag_get
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_interrupt_flag_clear
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_interrupt_enable
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text.rcu_interrupt_disable
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_i2s_deinit
+                0x00000000       0x64 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_struct_para_init
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.i2s_init
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.i2s_psc_config
+                0x00000000       0xe8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.i2s_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.i2s_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_nss_output_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_nss_output_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_nss_internal_high
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_nss_internal_low
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_dma_enable
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_dma_disable
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_i2s_data_frame_format_config
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_bidirectional_transfer_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_i2s_format_error_clear
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_crc_polynomial_set
+                0x00000000        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_crc_polynomial_get
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_crc_on
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_crc_off
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_crc_next
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_crc_get
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_crc_error_clear
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_ti_mode_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_ti_mode_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_nssp_mode_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_nssp_mode_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_quad_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_quad_disable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_quad_write_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_quad_read_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_quad_io23_output_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_quad_io23_output_disable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text.spi_i2s_flag_get
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_deinit
+                0x00000000      0x1a8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_struct_para_init
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_auto_reload_shadow_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_auto_reload_shadow_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_update_event_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_update_event_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_counter_alignment
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_counter_up_direction
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_counter_down_direction
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_prescaler_config
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_repetition_value_config
+                0x00000000        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_autoreload_value_config
+                0x00000000        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_counter_value_config
+                0x00000000        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_counter_read
+                0x00000000        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_prescaler_read
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_single_pulse_mode_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_update_source_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_interrupt_enable
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_interrupt_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_flag_get
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_flag_clear
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_dma_enable
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_dma_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_dma_request_source_select
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_dma_transfer_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_event_software_generate
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_break_struct_para_init
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_break_config
+                0x00000000       0x2c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_break_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_break_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_automatic_output_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_automatic_output_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_primary_output_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_control_shadow_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_control_shadow_update_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_struct_para_init
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_config
+                0x00000000      0x200 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_mode_config
+                0x00000000       0x50 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_pulse_value_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_shadow_config
+                0x00000000       0x50 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_fast_config
+                0x00000000       0x50 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_clear_config
+                0x00000000       0x50 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_polarity_config
+                0x00000000       0x54 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_complementary_output_polarity_config
+                0x00000000       0x40 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_output_state_config
+                0x00000000       0x54 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_complementary_output_state_config
+                0x00000000       0x40 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_input_struct_para_init
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_input_capture_config
+                0x00000000      0x174 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_input_capture_prescaler_config
+                0x00000000       0x50 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_channel_capture_value_register_read
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_input_pwm_capture_config
+                0x00000000      0x170 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_hall_mode_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_input_trigger_source_select
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_master_output_trigger_source_select
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_slave_mode_select
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_master_slave_mode_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_external_trigger_config
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_quadrature_decoder_mode_config
+                0x00000000       0x48 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_internal_clock_config
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_internal_trigger_as_external_clock_config
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_external_trigger_as_external_clock_config
+                0x00000000       0xa8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_external_clock_mode0_config
+                0x00000000       0x30 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_external_clock_mode1_config
+                0x00000000       0x28 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_external_clock_mode1_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_write_chxval_register_config
+                0x00000000       0x24 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text.timer_output_value_selection_config
+                0x00000000       0x24 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .bss           0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_deinit
+                0x00000000       0xa0 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_parity_config
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_word_length_set
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_stop_bit_set
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_data_first_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_invert_config
+                0x00000000       0x64 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_receiver_timeout_enable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_receiver_timeout_disable
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_receiver_timeout_threshold_config
+                0x00000000       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_data_transmit
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_address_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_mute_mode_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_mute_mode_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_mute_mode_wakeup_config
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_lin_mode_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_lin_mode_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_lin_break_detection_length_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_send_break
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_halfduplex_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_halfduplex_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_synchronous_clock_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_synchronous_clock_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_synchronous_clock_config
+                0x00000000       0x24 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_guard_time_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_smartcard_mode_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_smartcard_mode_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_smartcard_mode_nack_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_smartcard_mode_nack_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_smartcard_autoretry_config
+                0x00000000       0x20 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_block_length_config
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_irda_mode_enable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_irda_mode_disable
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_prescaler_config
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_irda_lowpower_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_dma_transmit_config
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_flag_get
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_flag_clear
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_interrupt_disable
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text.usart_interrupt_flag_clear
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+ .text          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .data          0x00000000        0x0 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysSetPeriodS
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.SystemTickStop
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysTimerInitMS
+                0x00000000       0x3c libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysTimerInitS
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysIsTimeoutS
+                0x00000000       0x1c libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysTimerResetMS
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysTimerResetS
+                0x00000000       0x10 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysTimerCheckMs
+                0x00000000       0x3c libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysTimerCheckS
+                0x00000000       0x30 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.sysUpdateNow
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.systemSecondEvent
+                0x00000000       0x14 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.ClearsystemSecondEvent
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.systemCycles
+                0x00000000        0x8 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.systemMacros
+                0x00000000       0x28 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.systemMillis
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text.systemNow
+                0x00000000        0xc libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .text          0x00000000        0x0 libs\USBD\src\USBFS.X.a(printer_core.o)
+ .text          0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_core.o)
+ .data          0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_core.o)
+ .bss           0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_core.o)
+ .text.usbd_fifo_flush
+                0x00000000       0x24 libs\USBD\src\USBFS.X.a(usbd_core.o)
+ .text          0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .data          0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text          0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .data          0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .bss           0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_pollInterrupt
+                0x00000000       0xac libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_resetHanlder
+                0x00000000        0x8 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text          0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+ .data          0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+ .bss           0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+ .text          0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .data          0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .bss           0x00000000        0x0 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .text.usb_transc0_active
+                0x00000000       0x50 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .text.usb_rwkup_active
+                0x00000000       0x40 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .text.usb_dev_suspend
+                0x00000000       0x22 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .text.usb_dev_stop
+                0x00000000       0x54 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .text          0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+ .data          0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+ .bss           0x00000000        0x0 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.SendXon  0x00000000       0x34 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.SendXoff
+                0x00000000       0x34 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.printHex
+                0x00000000       0x54 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.printu8Number
+                0x00000000       0x34 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.printu32Number
+                0x00000000       0x34 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.PrintString
+                0x00000000       0x50 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .bss           0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .text.fifo_bytes_Is_Full
+                0x00000000        0xc libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .text.fifo_bytes_Is_Empty
+                0x00000000       0x10 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .text.fifo_struct_peek
+                0x00000000       0x88 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .text.fifo_struct_IsEmpty
+                0x00000000       0x10 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .text.printhead_defaultSpeed
+                0x00000000        0xc libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .text.printhead_defaultDenesity
+                0x00000000       0x10 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .text.printhead_LSB
+                0x00000000       0x10 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.setDrawingCPSet
+                0x00000000       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.assignemtNewFont
+                0x00000000        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.drawCharActiveBlodState
+                0x00000000       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.setLeftMargin
+                0x00000000       0x14 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.getLastDataYpos
+                0x00000000        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+ .text.PrintUserDefineGetFont
+                0x00000000       0x28 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.readData
+                0x00000000       0x7c libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.flash_chip_erase
+                0x00000000       0x18 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.flash_erase_block
+                0x00000000       0x20 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.flash_write_status_Registers
+                0x00000000       0x28 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.flash_erase_sector
+                0x00000000       0x20 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+ .text.checkSystemValid
+                0x00000000      0x13c libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+ .text.setNumberOfTone
+                0x00000000       0x18 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .bss           0x00000000        0x1 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.u8Decoder
+                0x00000000       0x2c libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.map      0x00000000       0x1c libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.power2   0x00000000       0x1c libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.Match_2BUF
+                0x00000000       0x28 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.hex8TOASII
+                0x00000000       0x24 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.cpyStringToBuff
+                0x00000000       0x74 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.u32TOASII
+                0x00000000      0x148 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.Edit2Digit
+                0x00000000       0x78 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.scllormessage
+                0x00000000       0xb4 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.DecToBcdFun
+                0x00000000       0x20 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.BcdToDecFun
+                0x00000000       0x14 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.conv2d   0x00000000       0x20 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.print2d  0x00000000       0x24 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.print3d  0x00000000       0x3c libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.ResetScollMessage
+                0x00000000        0xc libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.arraytoU8
+                0x00000000       0x24 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.arraytoU16
+                0x00000000       0x3c libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.u8ToBCD  0x00000000       0x90 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.u16ToBCD
+                0x00000000       0xd8 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.MatchBufWithValue
+                0x00000000       0x20 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.csmaCRCCheck
+                0x00000000       0x84 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text.swapArray
+                0x00000000        0xc libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+ .text          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+ .data          0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+ .bss           0x00000000        0x0 libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o)
+ .text          0x00000000       0xdc c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xc4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss.__lock___sinit_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0x90 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .text._exit    0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtend.o
+ .rodata        0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000000       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00040000         xr
+RAM              0x20000000         0x00018000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crti.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+LOAD build/default/production/src/main.o
+LOAD build/default/production/src/gd32f30x_it.o
+LOAD libs\GD32f30x\src\GD32f30x.X.a
+LOAD libs\USBD\src\USBFS.X.a
+LOAD libs\smartPrinter\src\smartPrinter.X.a
+                0x00000001                __MPLAB_BUILD = 0x1
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a
+END GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtend.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtn.o
+                0x00000800                __stack_size = DEFINED (__stack_size)?__stack_size:0x800
+
+.vectors        0x08000000      0x150
+                0x08000000                . = ALIGN (0x4)
+ *(.vectors)
+ .vectors       0x08000000      0x150 libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+                0x08000000                __gVectors
+                0x08000150                . = ALIGN (0x4)
+
+.text           0x08000150     0x81ac
+                0x08000150                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000150       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.text*)
+ .text.usbd_Write_into_escpos_buffer
+                0x08000190       0x14 build/default/production/src/main.o
+ .text.startup.main
+                0x080001a4      0x10c build/default/production/src/main.o
+                0x080001a4                main
+ .text.systemAppSyncFunc
+                0x080002b0        0x8 build/default/production/src/main.o
+                0x080002b0                systemAppSyncFunc
+ .text.NMI_Handler
+                0x080002b8        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002b8                NMI_Handler
+ .text.HardFault_Handler
+                0x080002bc        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002bc                HardFault_Handler
+ .text.MemManage_Handler
+                0x080002c0        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002c0                MemManage_Handler
+ .text.BusFault_Handler
+                0x080002c4        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002c4                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080002c8        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002c8                UsageFault_Handler
+ .text.SVC_Handler
+                0x080002cc        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002cc                SVC_Handler
+ .text.DebugMon_Handler
+                0x080002d0        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002d0                DebugMon_Handler
+ .text.PendSV_Handler
+                0x080002d4        0x4 build/default/production/src/gd32f30x_it.o
+                0x080002d4                PendSV_Handler
+ .text.USBFS_IRQHandler
+                0x080002d8       0x10 build/default/production/src/gd32f30x_it.o
+                0x080002d8                USBFS_IRQHandler
+ .text.USBFS_WKUP_IRQHandler
+                0x080002e8       0x90 build/default/production/src/gd32f30x_it.o
+                0x080002e8                USBFS_WKUP_IRQHandler
+ .text.TIMER2_IRQHandler
+                0x08000378       0x30 build/default/production/src/gd32f30x_it.o
+                0x08000378                TIMER2_IRQHandler
+ .text.TIMER1_IRQHandler
+                0x080003a8       0x30 build/default/production/src/gd32f30x_it.o
+                0x080003a8                TIMER1_IRQHandler
+ .text.SPI0_IRQHandler
+                0x080003d8        0x4 build/default/production/src/gd32f30x_it.o
+                0x080003d8                SPI0_IRQHandler
+ .text.SPI2_IRQHandler
+                0x080003dc       0x4c build/default/production/src/gd32f30x_it.o
+                0x080003dc                SPI2_IRQHandler
+ .text.USART0_IRQHandler
+                0x08000428        0x8 build/default/production/src/gd32f30x_it.o
+                0x08000428                USART0_IRQHandler
+ .text.EXTI5_9_IRQHandler
+                0x08000430       0x20 build/default/production/src/gd32f30x_it.o
+                0x08000430                EXTI5_9_IRQHandler
+ .text.Reset_Handler
+                0x08000450       0x48 libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+                0x08000450                Reset_Handler
+ .text.Default_Handler
+                0x08000498        0x2 libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+                0x08000498                RTC_Alarm_IRQHandler
+                0x08000498                EXTI2_IRQHandler
+                0x08000498                TIMER5_IRQHandler
+                0x08000498                LVD_IRQHandler
+                0x08000498                CAN1_EWMC_IRQHandler
+                0x08000498                TIMER7_UP_TIMER12_IRQHandler
+                0x08000498                ADC0_1_IRQHandler
+                0x08000498                SDIO_IRQHandler
+                0x08000498                EXTI3_IRQHandler
+                0x08000498                TIMER0_TRG_CMT_TIMER10_IRQHandler
+                0x08000498                TIMER3_IRQHandler
+                0x08000498                DMA0_Channel6_IRQHandler
+                0x08000498                I2C0_EV_IRQHandler
+                0x08000498                EXTI0_IRQHandler
+                0x08000498                CAN1_RX0_IRQHandler
+                0x08000498                TIMER7_TRG_CMT_TIMER13_IRQHandler
+                0x08000498                TIMER4_IRQHandler
+                0x08000498                SPI1_IRQHandler
+                0x08000498                DMA0_Channel0_IRQHandler
+                0x08000498                TAMPER_IRQHandler
+                0x08000498                TIMER0_BRK_TIMER8_IRQHandler
+                0x08000498                DMA1_Channel0_IRQHandler
+                0x08000498                TIMER7_BRK_TIMER11_IRQHandler
+                0x08000498                TIMER6_IRQHandler
+                0x08000498                DMA1_Channel4_IRQHandler
+                0x08000498                DMA0_Channel3_IRQHandler
+                0x08000498                I2C0_ER_IRQHandler
+                0x08000498                TIMER0_UP_TIMER9_IRQHandler
+                0x08000498                RTC_IRQHandler
+                0x08000498                CAN1_RX1_IRQHandler
+                0x08000498                DMA0_Channel2_IRQHandler
+                0x08000498                I2C1_EV_IRQHandler
+                0x08000498                UART4_IRQHandler
+                0x08000498                EXTI10_15_IRQHandler
+                0x08000498                DMA1_Channel1_IRQHandler
+                0x08000498                Default_Handler
+                0x08000498                TIMER7_Channel_IRQHandler
+                0x08000498                CAN0_TX_IRQHandler
+                0x08000498                WWDGT_IRQHandler
+                0x08000498                EXMC_IRQHandler
+                0x08000498                ADC2_IRQHandler
+                0x08000498                CAN1_TX_IRQHandler
+                0x08000498                RCU_CTC_IRQHandler
+                0x08000498                EXTI4_IRQHandler
+                0x08000498                CAN0_RX1_IRQHandler
+                0x08000498                DMA0_Channel5_IRQHandler
+                0x08000498                DMA1_Channel3_IRQHandler
+                0x08000498                DMA0_Channel1_IRQHandler
+                0x08000498                TIMER0_Channel_IRQHandler
+                0x08000498                EXTI1_IRQHandler
+                0x08000498                ENET_WKUP_IRQHandler
+                0x08000498                USART2_IRQHandler
+                0x08000498                CAN0_EWMC_IRQHandler
+                0x08000498                CAN0_RX0_IRQHandler
+                0x08000498                DMA1_Channel2_IRQHandler
+                0x08000498                USART1_IRQHandler
+                0x08000498                UART3_IRQHandler
+                0x08000498                I2C1_ER_IRQHandler
+                0x08000498                FMC_IRQHandler
+                0x08000498                DMA0_Channel4_IRQHandler
+                0x08000498                ENET_IRQHandler
+ *fill*         0x0800049a        0x2 
+ .text.SystemInit
+                0x0800049c      0x120 libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+                0x0800049c                SystemInit
+ .text.adc_disable
+                0x080005bc        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+                0x080005bc                adc_disable
+ .text.adc_calibration_enable
+                0x080005c8       0x24 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+                0x080005c8                adc_calibration_enable
+ .text.exti_init
+                0x080005ec       0xb8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+                0x080005ec                exti_init
+ .text.exti_interrupt_enable
+                0x080006a4       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+                0x080006a4                exti_interrupt_enable
+ .text.exti_interrupt_disable
+                0x080006b8       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+                0x080006b8                exti_interrupt_disable
+ .text.exti_event_disable
+                0x080006cc       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+                0x080006cc                exti_event_disable
+ .text.exti_interrupt_flag_get
+                0x080006e0       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+                0x080006e0                exti_interrupt_flag_get
+ .text.exti_interrupt_flag_clear
+                0x080006f4        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+                0x080006f4                exti_interrupt_flag_clear
+ .text.gpio_init
+                0x08000700      0x3b8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000700                gpio_init
+ .text.gpio_bit_set
+                0x08000ab8        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000ab8                gpio_bit_set
+ .text.gpio_bit_reset
+                0x08000abc        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000abc                gpio_bit_reset
+ .text.gpio_bit_write
+                0x08000ac0        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000ac0                gpio_bit_write
+ .text.gpio_input_bit_get
+                0x08000acc        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000acc                gpio_input_bit_get
+ .text.gpio_pin_remap_config
+                0x08000ad8       0x70 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000ad8                gpio_pin_remap_config
+ .text.gpio_exti_source_select
+                0x08000b48       0x6c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000b48                gpio_exti_source_select
+ .text.gpio_event_output_disable
+                0x08000bb4       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+                0x08000bb4                gpio_event_output_disable
+ .text.nvic_priority_group_set
+                0x08000bc4       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+                0x08000bc4                nvic_priority_group_set
+ .text.nvic_irq_enable
+                0x08000bd8       0x9c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+                0x08000bd8                nvic_irq_enable
+ .text.nvic_irq_disable
+                0x08000c74       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+                0x08000c74                nvic_irq_disable
+ .text.rcu_periph_clock_enable
+                0x08000c90       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000c90                rcu_periph_clock_enable
+ .text.rcu_system_clock_source_config
+                0x08000cac       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000cac                rcu_system_clock_source_config
+ .text.rcu_system_clock_source_get
+                0x08000cc0       0x10 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000cc0                rcu_system_clock_source_get
+ .text.rcu_adc_clock_config
+                0x08000cd0       0x68 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000cd0                rcu_adc_clock_config
+ .text.rcu_usb_clock_config
+                0x08000d38       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000d38                rcu_usb_clock_config
+ .text.rcu_osci_on
+                0x08000d4c       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000d4c                rcu_osci_on
+ .text.rcu_clock_freq_get
+                0x08000d68      0x14c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000d68                rcu_clock_freq_get
+ .text.rcu_flag_get
+                0x08000eb4       0x1c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+                0x08000eb4                rcu_flag_get
+ .text.spi_init
+                0x08000ed0       0x34 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000ed0                spi_init
+ .text.spi_enable
+                0x08000f04        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000f04                spi_enable
+ .text.spi_disable
+                0x08000f10        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000f10                spi_disable
+ .text.spi_i2s_data_transmit
+                0x08000f1c        0x4 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000f1c                spi_i2s_data_transmit
+ .text.spi_i2s_data_receive
+                0x08000f20        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000f20                spi_i2s_data_receive
+ .text.spi_i2s_interrupt_enable
+                0x08000f28       0x2c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000f28                spi_i2s_interrupt_enable
+ .text.spi_i2s_interrupt_disable
+                0x08000f54       0x2c libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000f54                spi_i2s_interrupt_disable
+ .text.spi_i2s_interrupt_flag_get
+                0x08000f80       0x68 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+                0x08000f80                spi_i2s_interrupt_flag_get
+ .text.timer_init
+                0x08000fe8       0x80 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+                0x08000fe8                timer_init
+ .text.timer_disable
+                0x08001068        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+                0x08001068                timer_disable
+ .text.timer_interrupt_flag_get
+                0x08001074       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+                0x08001074                timer_interrupt_flag_get
+ .text.timer_interrupt_flag_clear
+                0x08001088        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+                0x08001088                timer_interrupt_flag_clear
+ .text.usart_baudrate_set
+                0x08001090       0x58 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001090                usart_baudrate_set
+ .text.usart_enable
+                0x080010e8        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x080010e8                usart_enable
+ .text.usart_disable
+                0x080010f4        0xc libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x080010f4                usart_disable
+ .text.usart_transmit_config
+                0x08001100       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001100                usart_transmit_config
+ .text.usart_receive_config
+                0x08001114       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001114                usart_receive_config
+ .text.usart_data_receive
+                0x08001128        0x8 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001128                usart_data_receive
+ .text.usart_hardware_flow_rts_config
+                0x08001130       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001130                usart_hardware_flow_rts_config
+ .text.usart_hardware_flow_cts_config
+                0x08001144       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001144                usart_hardware_flow_cts_config
+ .text.usart_dma_receive_config
+                0x08001158       0x14 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001158                usart_dma_receive_config
+ .text.usart_interrupt_enable
+                0x0800116c       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x0800116c                usart_interrupt_enable
+ .text.usart_interrupt_flag_get
+                0x08001184       0x30 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+                0x08001184                usart_interrupt_flag_get
+ .text.usb_rcu_config
+                0x080011b4       0x74 libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+                0x080011b4                usb_rcu_config
+ .text.usb_intr_config
+                0x08001228       0x10 libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+                0x08001228                usb_intr_config
+ .text.SysTick_Handler
+                0x08001238       0x60 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x08001238                SysTick_Handler
+ .text.sysSetPeriodUS
+                0x08001298       0x30 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x08001298                sysSetPeriodUS
+ .text.sysSetPeriodMS
+                0x080012c8       0x10 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x080012c8                sysSetPeriodMS
+ .text.SysInit  0x080012d8       0x50 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x080012d8                SysInit
+ .text.SysTickStart
+                0x08001328       0x10 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x08001328                SysTickStart
+ .text.sysIsTimeoutMs
+                0x08001338       0x28 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x08001338                sysIsTimeoutMs
+ .text.sysIsTimeoutUs
+                0x08001360       0x48 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x08001360                sysIsTimeoutUs
+ .text.__delay_ms
+                0x080013a8       0x14 libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x080013a8                __delay_ms
+ .text.__delay_us
+                0x080013bc       0x4c libs\GD32f30x\src\GD32f30x.X.a(system.o)
+                0x080013bc                __delay_us
+ .text.printer_in
+                0x08001408        0x4 libs\USBD\src\USBFS.X.a(printer_core.o)
+ .text.printer_out
+                0x0800140c       0x18 libs\USBD\src\USBFS.X.a(printer_core.o)
+ .text.printer_deinit
+                0x08001424       0x18 libs\USBD\src\USBFS.X.a(printer_core.o)
+ .text.printer_init
+                0x0800143c       0x38 libs\USBD\src\USBFS.X.a(printer_core.o)
+ .text.printer_req
+                0x08001474       0x4c libs\USBD\src\USBFS.X.a(printer_core.o)
+ .text.usbdRegisterToreadData
+                0x080014c0        0xc libs\USBD\src\USBFS.X.a(printer_core.o)
+                0x080014c0                usbdRegisterToreadData
+ .text.UsbDriver
+                0x080014cc       0x3c libs\USBD\src\USBFS.X.a(printer_core.o)
+                0x080014cc                UsbDriver
+ .text.usbd_ep_setup
+                0x08001508       0x70 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x08001508                usbd_ep_setup
+ .text.usbd_ep_clear
+                0x08001578       0x30 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x08001578                usbd_ep_clear
+ .text.usbd_ep_recev
+                0x080015a8       0x28 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x080015a8                usbd_ep_recev
+ .text.usbd_ep_send
+                0x080015d0       0x28 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x080015d0                usbd_ep_send
+ .text.usbd_ep_stall
+                0x080015f8       0x30 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x080015f8                usbd_ep_stall
+ .text.usbd_ep_stall_clear
+                0x08001628       0x30 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x08001628                usbd_ep_stall_clear
+ .text.usbd_connect
+                0x08001658       0x14 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x08001658                usbd_connect
+ .text.usbd_disconnect
+                0x0800166c       0x14 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x0800166c                usbd_disconnect
+ .text.usbd_init
+                0x08001680       0x80 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x08001680                usbd_init
+ .text._usb_std_reserved
+                0x08001700        0x4 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_dev_desc_get
+                0x08001704        0xc libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_config_desc_get
+                0x08001710        0xc libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_str_desc_get
+                0x0800171c       0x10 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_getstatus
+                0x0800172c       0x94 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_getdescriptor
+                0x080017c0       0xc0 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_getconfiguration
+                0x08001880       0x36 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ *fill*         0x080018b6        0x2 
+ .text._usb_std_setconfiguration
+                0x080018b8       0x84 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_setaddress
+                0x0800193c       0x4a libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_getinterface
+                0x08001986       0x2c libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_setinterface
+                0x080019b2       0x28 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ *fill*         0x080019da        0x2 
+ .text._usb_std_setfeature
+                0x080019dc       0x54 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_clearfeature
+                0x08001a30       0x64 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_setdescriptor
+                0x08001a94        0x4 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text._usb_std_synchframe
+                0x08001a98        0x4 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .text.usbd_standard_request
+                0x08001a9c       0x10 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+                0x08001a9c                usbd_standard_request
+ .text.usbd_class_request
+                0x08001aac       0x22 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+                0x08001aac                usbd_class_request
+ .text.usbd_vendor_request
+                0x08001ace        0x4 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+                0x08001ace                usbd_vendor_request
+ *fill*         0x08001ad2        0x2 
+ .text.usbd_enum_error
+                0x08001ad4       0x24 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+                0x08001ad4                usbd_enum_error
+ .text.int_to_unicode
+                0x08001af8       0x2a libs\USBD\src\USBFS.X.a(usbd_enum.o)
+                0x08001af8                int_to_unicode
+ *fill*         0x08001b22        0x2 
+ .text.serial_string_get
+                0x08001b24       0x50 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+                0x08001b24                serial_string_get
+ .text.usbd_int_suspend.isra.0
+                0x08001b74       0x5c libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_int_enumfinish.isra.0
+                0x08001bd0       0x4c libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_int_reset.isra.0
+                0x08001c1c       0xbc libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_int_rxfifo.isra.0
+                0x08001cd8       0xa0 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_int_epin.isra.0
+                0x08001d78      0x110 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_int_epout.isra.0
+                0x08001e88       0x70 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .text.usbd_isr
+                0x08001ef8       0xc0 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+                0x08001ef8                usbd_isr
+ .text.usb_core_reset.isra.0
+                0x08001fb8       0x18 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+ .text.usb_basic_init
+                0x08001fd0      0x104 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x08001fd0                usb_basic_init
+ .text.usb_core_init
+                0x080020d4       0x80 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x080020d4                usb_core_init
+ .text.usb_txfifo_write
+                0x08002154       0x1e libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x08002154                usb_txfifo_write
+ .text.usb_rxfifo_read
+                0x08002172       0x1a libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x08002172                usb_rxfifo_read
+ .text.usb_txfifo_flush
+                0x0800218c       0x24 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x0800218c                usb_txfifo_flush
+ .text.usb_rxfifo_flush
+                0x080021b0       0x20 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x080021b0                usb_rxfifo_flush
+ .text.usb_set_txfifo
+                0x080021d0       0x3e libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x080021d0                usb_set_txfifo
+ .text.usb_curmode_set
+                0x0800220e       0x22 libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+                0x0800220e                usb_curmode_set
+ .text.usb_devint_enable
+                0x08002230       0x34 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x08002230                usb_devint_enable
+ .text.usb_devcore_init
+                0x08002264       0xe0 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x08002264                usb_devcore_init
+ .text.usb_transc_active
+                0x08002344       0x7c libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x08002344                usb_transc_active
+ .text.usb_transc_deactivate
+                0x080023c0       0x3e libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x080023c0                usb_transc_deactivate
+ *fill*         0x080023fe        0x2 
+ .text.usb_transc_inxfer
+                0x08002400       0xc0 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x08002400                usb_transc_inxfer
+ .text.usb_transc_outxfer
+                0x080024c0       0x56 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x080024c0                usb_transc_outxfer
+ .text.usb_transc_stall
+                0x08002516       0x32 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x08002516                usb_transc_stall
+ .text.usb_transc_clrstall
+                0x08002548       0x32 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x08002548                usb_transc_clrstall
+ .text.usb_iepintr_read
+                0x0800257a       0x1c libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x0800257a                usb_iepintr_read
+ *fill*         0x08002596        0x2 
+ .text.usb_ctlep_startout
+                0x08002598        0xc libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x08002598                usb_ctlep_startout
+ .text.usb_clock_active
+                0x080025a4       0x1a libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+                0x080025a4                usb_clock_active
+ *fill*         0x080025be        0x2 
+ .text.usbd_ctl_send
+                0x080025c0       0x30 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                0x080025c0                usbd_ctl_send
+ .text.usbd_ctl_recev
+                0x080025f0       0x30 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                0x080025f0                usbd_ctl_recev
+ .text.usbd_ctl_status_send
+                0x08002620       0x28 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                0x08002620                usbd_ctl_status_send
+ .text.usbd_ctl_status_recev
+                0x08002648       0x28 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                0x08002648                usbd_ctl_status_recev
+ .text.usbd_setup_transc
+                0x08002670       0x84 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                0x08002670                usbd_setup_transc
+ .text.usbd_out_transc
+                0x080026f4       0x68 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                0x080026f4                usbd_out_transc
+ .text.usbd_in_transc
+                0x0800275c       0x80 libs\USBD\src\USBFS.X.a(usbd_transc.o)
+                0x0800275c                usbd_in_transc
+ .text.SelfTestExit
+                0x080027dc       0x10 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.FeedPaper
+                0x080027ec       0x3c libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.DumpExit
+                0x08002828       0x50 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.keyPowerOn
+                0x08002878       0x98 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .text.escpos_esc_init
+                0x08002910       0xbc libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x08002910                escpos_esc_init
+ .text.escpos_write_into_receiveBuffer
+                0x080029cc       0x14 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x080029cc                escpos_write_into_receiveBuffer
+ .text.ReadCurrentCmd
+                0x080029e0       0x10 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x080029e0                ReadCurrentCmd
+ .text.escpos   0x080029f0      0xd60 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x080029f0                escpos
+ .text.SystemGenerateError
+                0x08003750       0x20 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x08003750                SystemGenerateError
+ .text.SystemClearError
+                0x08003770        0xc libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x08003770                SystemClearError
+ .text.printu16Number
+                0x0800377c       0x30 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x0800377c                printu16Number
+ .text.PrintChar
+                0x080037ac       0x28 libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+                0x080037ac                PrintChar
+ .text.Printer_RealTime_Status_Transmission
+                0x080037d4        0x4 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.PrinterDefaultCMD
+                0x080037d8        0x4 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Print_And_Line_Feed
+                0x080037dc       0x1c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Cut_Paper
+                0x080037f8       0xdc libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Set_Default_LineSpacing
+                0x080038d4       0x10 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_JMP_TO_NEXT_TAB_Position
+                0x080038e4       0x10 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Print_And_Carriage_Return
+                0x080038f4       0x30 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Feed_N_Line
+                0x08003924       0x78 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Set_Double_Width_And_Height
+                0x0800399c       0x40 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Define_NV_Bitmap
+                0x080039dc       0x70 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Print_NV_Bitmap
+                0x08003a4c       0x78 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Set_Relative_Print_Position
+                0x08003ac4       0x34 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Turn_UpsideDown_Printing_Mode
+                0x08003af8       0x2c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Select_Justification
+                0x08003b24       0x60 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Pinter_Turn_90_Clockwise_Rotation_Mode
+                0x08003b84       0x4c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Select_Character_Font
+                0x08003bd0       0x58 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Turn_Strike_Mode
+                0x08003c28       0x30 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Select_Bold_Mode
+                0x08003c58       0x2c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_setHorizontal_Tab_Positions
+                0x08003c84       0x5c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Set_LineSpacing
+                0x08003ce0       0x2c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Set_Underline_Dots
+                0x08003d0c       0x4c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Select_Print_Modes
+                0x08003d58       0x6c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Select_BitImage_Mode
+                0x08003dc4       0x94 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Define_UserDefined_Characters
+                0x08003e58       0xa0 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Select_UserDefined_Characters
+                0x08003ef8       0x30 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Set_Absolute_Print_Position
+                0x08003f28       0x34 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Set_Space_Between_Chars
+                0x08003f5c       0x2c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.PrinterMemTest
+                0x08003f88        0x4 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_RealTime_Request_To_Printer
+                0x08003f8c        0x4 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Generate_Pulse_AT_RealTime
+                0x08003f90        0x4 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Cencel_UserDefined_Characters
+                0x08003f94        0x4 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.Printer_Feed_N_Dot
+                0x08003f98       0x6c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .text.escpos_cmd_main
+                0x08004004      0x17c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+                0x08004004                escpos_cmd_main
+ .text.assignPointerOfreceieBuffer
+                0x08004180        0xc libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+                0x08004180                assignPointerOfreceieBuffer
+ .text.escpos_cmd_init
+                0x0800418c       0x18 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+                0x0800418c                escpos_cmd_init
+ .text.fifo_bytes_init
+                0x080041a4       0x18 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080041a4                fifo_bytes_init
+ .text.fifo_byte_write
+                0x080041bc       0x6c libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080041bc                fifo_byte_write
+ .text.fifo_byte_Read
+                0x08004228       0x80 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x08004228                fifo_byte_Read
+ .text.fifo_byte_remove
+                0x080042a8       0x28 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080042a8                fifo_byte_remove
+ .text.fifo_byte_Peek
+                0x080042d0       0x80 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080042d0                fifo_byte_Peek
+ .text.fifo_bytes_write
+                0x08004350       0x64 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x08004350                fifo_bytes_write
+ .text.fifo_bytes_read
+                0x080043b4       0x7c libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080043b4                fifo_bytes_read
+ .text.fifo_bytes_peek
+                0x08004430       0x8c libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x08004430                fifo_bytes_peek
+ .text.fifo_struct_init
+                0x080044bc       0x20 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080044bc                fifo_struct_init
+ .text.fifo_struct_write
+                0x080044dc       0x68 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080044dc                fifo_struct_write
+ .text.fifo_struct_Read
+                0x08004544       0x8c libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x08004544                fifo_struct_Read
+ .text.fifo_N_struct_free
+                0x080045d0        0xc libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080045d0                fifo_N_struct_free
+ .text.fifo_N_struct_used
+                0x080045dc       0x10 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080045dc                fifo_N_struct_used
+ .text.fifo_FreeSpace
+                0x080045ec        0x4 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080045ec                fifo_FreeSpace
+ .text.fifo_UsedSpace
+                0x080045f0        0xc libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080045f0                fifo_UsedSpace
+ .text.fifo_bytes_remove
+                0x080045fc       0x30 libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+                0x080045fc                fifo_bytes_remove
+ .text.printhead_write_Data
+                0x0800462c       0xd8 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .text.printhead_timer1_isr
+                0x08004704       0x2c libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004704                printhead_timer1_isr
+ .text.printhead_timer2_isr
+                0x08004730      0x1c0 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004730                printhead_timer2_isr
+ .text.PutAction
+                0x080048f0      0x190 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x080048f0                PutAction
+ .text.RunActions
+                0x08004a80       0xb4 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004a80                RunActions
+ .text.QueuLineEmpty
+                0x08004b34       0x18 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004b34                QueuLineEmpty
+ .text.printhead_init
+                0x08004b4c      0x36c libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004b4c                printhead_init
+ .text.Printer_Deneisty
+                0x08004eb8       0x20 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004eb8                Printer_Deneisty
+ .text.Printer_Speed
+                0x08004ed8       0x34 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004ed8                Printer_Speed
+ .text.ResetHead
+                0x08004f0c       0x70 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004f0c                ResetHead
+ .text.PrintSpeed
+                0x08004f7c        0xc libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004f7c                PrintSpeed
+ .text.ShowCurrentTemp
+                0x08004f88       0x38 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004f88                ShowCurrentTemp
+ .text.EnablePowerPin
+                0x08004fc0       0x10 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004fc0                EnablePowerPin
+ .text.DisablePowerPin
+                0x08004fd0       0x10 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004fd0                DisablePowerPin
+ .text.PritMAxSize
+                0x08004fe0       0x24 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+                0x08004fe0                PritMAxSize
+ .text.DrawBitmapImages
+                0x08005004       0xd4 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.DrawBitmapChars90
+                0x080050d8      0x130 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.DrawBitmapChars
+                0x08005208      0x138 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.DrawImagBitWithInChar
+                0x08005340       0xe8 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .text.PixelBufferInit
+                0x08005428       0x48 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005428                PixelBufferInit
+ .text.getCurrentFont
+                0x08005470       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005470                getCurrentFont
+ .text.setDrawingSizeX
+                0x08005480       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005480                setDrawingSizeX
+ .text.setDrawingSizeY
+                0x08005490       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005490                setDrawingSizeY
+ .text.setDoubleStrike
+                0x080054a0       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080054a0                setDoubleStrike
+ .text.SetupSideDown
+                0x080054b0       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080054b0                SetupSideDown
+ .text.getupSizeDown
+                0x080054c0       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080054c0                getupSizeDown
+ .text.setJustification
+                0x080054d0       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080054d0                setJustification
+ .text.setDrawingRotaion90
+                0x080054e0       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080054e0                setDrawingRotaion90
+ .text.setDefaultLineSpace
+                0x080054f0        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080054f0                setDefaultLineSpace
+ .text.setLineSpace
+                0x080054fc        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080054fc                setLineSpace
+ .text.setCurrentFont
+                0x08005508       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005508                setCurrentFont
+ .text.setCurrentUnderLine
+                0x08005518       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005518                setCurrentUnderLine
+ .text.setCurrentBold
+                0x08005528       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005528                setCurrentBold
+ .text.getLineSpace
+                0x08005538        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005538                getLineSpace
+ .text.getMaxDotPerLine
+                0x08005544        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005544                getMaxDotPerLine
+ .text.WriteChar
+                0x08005550      0x298 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005550                WriteChar
+ .text.setSpaceBetweenChar
+                0x080057e8       0x18 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x080057e8                setSpaceBetweenChar
+ .text.WriteBitImage
+                0x08005800      0x268 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005800                WriteBitImage
+ .text.fillTabBuffer
+                0x08005a68       0x20 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005a68                fillTabBuffer
+ .text.TabPorcess
+                0x08005a88       0x5c libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005a88                TabPorcess
+ .text.Default_Tab_set
+                0x08005ae4       0x18 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005ae4                Default_Tab_set
+ .text.PrintBufferHasData
+                0x08005afc       0x14 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005afc                PrintBufferHasData
+ .text.setAbsoluteXPostion
+                0x08005b10       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005b10                setAbsoluteXPostion
+ .text.setRelativeXPostion
+                0x08005b20       0x10 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005b20                setRelativeXPostion
+ .text.putFeedAction
+                0x08005b30       0x24 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005b30                putFeedAction
+ .text.putDataAction
+                0x08005b54       0x38 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005b54                putDataAction
+ .text.getMaxLine
+                0x08005b8c        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005b8c                getMaxLine
+ .text.ImagesInit
+                0x08005b98       0x28 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005b98                ImagesInit
+ .text.saveNvImage
+                0x08005bc0      0x260 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005bc0                saveNvImage
+ .text.upLoadHeaders
+                0x08005e20       0xd8 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005e20                upLoadHeaders
+ .text.BitNVImagesIsRead
+                0x08005ef8        0xc libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005ef8                BitNVImagesIsRead
+ .text.setMaxLogo
+                0x08005f04       0x48 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005f04                setMaxLogo
+ .text.loadCurrentIndex
+                0x08005f4c       0xc8 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08005f4c                loadCurrentIndex
+ .text.PrintNvImage
+                0x08006014      0x168 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x08006014                PrintNvImage
+ .text.getFontWithBitmap
+                0x0800617c       0x34 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x0800617c                getFontWithBitmap
+ .text.getUserDefineCharFirstChar
+                0x080061b0        0xc libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x080061b0                getUserDefineCharFirstChar
+ .text.loadUserDefineCharBitMapCoumn
+                0x080061bc       0x98 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x080061bc                loadUserDefineCharBitMapCoumn
+ .text.CencledTheUserDefineCharFromMemeory
+                0x08006254       0x20 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x08006254                CencledTheUserDefineCharFromMemeory
+ .text.SelectOrCencelUserDefineChar
+                0x08006274       0x14 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x08006274                SelectOrCencelUserDefineChar
+ .text.UserDefineChar_NumberDataByte
+                0x08006288       0x20 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x08006288                UserDefineChar_NumberDataByte
+ .text.getStateOFuserDefine
+                0x080062a8       0x24 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x080062a8                getStateOFuserDefine
+ .text.usart_config
+                0x080062cc       0xa8 libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+                0x080062cc                usart_config
+ .text.usart_isr
+                0x08006374       0x3c libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+                0x08006374                usart_isr
+ .text.UsartDriver
+                0x080063b0       0x20 libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+                0x080063b0                UsartDriver
+ .text.ResetDriver
+                0x080063d0        0xc libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.writePage
+                0x080063dc       0xa8 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.flash_writeDisable
+                0x08006484       0x78 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.WriteStatusReg
+                0x080064fc       0x80 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.erase_chip
+                0x0800657c       0x80 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.erase_sector
+                0x080065fc       0x80 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.erase_block
+                0x0800667c       0x80 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.flash_writeEnable
+                0x080066fc       0xc8 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.nextstep
+                0x080067c4       0xe8 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .text.isr_spi2_receiver
+                0x080068ac      0x1f4 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                0x080068ac                isr_spi2_receiver
+ .text.flash_init
+                0x08006aa0       0xd4 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                0x08006aa0                flash_init
+ .text.flash_read_data
+                0x08006b74       0x80 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                0x08006b74                flash_read_data
+ .text.flash_write_data
+                0x08006bf4       0x54 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                0x08006bf4                flash_write_data
+ .text.FlashMemoryDriver
+                0x08006c48      0x1e8 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                0x08006c48                FlashMemoryDriver
+ .text.flash_ready
+                0x08006e30       0x14 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                0x08006e30                flash_ready
+ .text.flash_error
+                0x08006e44       0x20 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+                0x08006e44                flash_error
+ .text.UserStatusInit
+                0x08006e64       0xd4 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+                0x08006e64                UserStatusInit
+ .text.UserStatusDriver
+                0x08006f38      0x220 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+                0x08006f38                UserStatusDriver
+ .text.run_flash_error
+                0x08007158       0x14 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+                0x08007158                run_flash_error
+ .text.GetStateOfDoor
+                0x0800716c       0x10 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+                0x0800716c                GetStateOfDoor
+ .text.PowerOffState
+                0x0800717c       0x10 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+                0x0800717c                PowerOffState
+ .text.PowerOnState
+                0x0800718c       0x20 libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+                0x0800718c                PowerOnState
+ .text.cut_Init
+                0x080071ac       0x80 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                0x080071ac                cut_Init
+ .text.ResetCut
+                0x0800722c       0x38 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                0x0800722c                ResetCut
+ .text.CutNow   0x08007264       0x74 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                0x08007264                CutNow
+ .text.CutErrorState
+                0x080072d8        0xc libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                0x080072d8                CutErrorState
+ .text.Cutter   0x080072e4      0x170 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                0x080072e4                Cutter
+ .text.getCutState
+                0x08007454       0x10 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                0x08007454                getCutState
+ .text.cutter_isr
+                0x08007464       0x60 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+                0x08007464                cutter_isr
+ .text.u16TOASII
+                0x080074c4       0xa4 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+                0x080074c4                u16TOASII
+ .text.u8TOASII
+                0x08007568       0x68 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+                0x08007568                u8TOASII
+ .text.copyBuff
+                0x080075d0       0x34 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+                0x080075d0                copyBuff
+ .text.setBuff  0x08007604       0x38 libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+                0x08007604                setBuff
+ .text.FeedButtonInit
+                0x0800763c       0x4c libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+                0x0800763c                FeedButtonInit
+ .text.FeedButtonScan
+                0x08007688       0x54 libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+                0x08007688                FeedButtonScan
+ .text.buttonRegisterEvent
+                0x080076dc        0xc libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+                0x080076dc                buttonRegisterEvent
+ .text.buttonResetTabCounter
+                0x080076e8       0x1c libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+                0x080076e8                buttonResetTabCounter
+ .text.ButtonDriver
+                0x08007704      0x170 libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+                0x08007704                ButtonDriver
+ .text.LongNoReapt
+                0x08007874       0x14 libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+                0x08007874                LongNoReapt
+ .text.getCurrentstandFont
+                0x08007888        0xc libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+                0x08007888                getCurrentstandFont
+ .text.__libc_init_array
+                0x08007894       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+                0x08007894                __libc_init_array
+ .text.malloc   0x080078dc       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+                0x080078dc                malloc
+ .text.free     0x080078ec       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+                0x080078ec                free
+ .text._malloc_r
+                0x080078fc      0x560 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x080078fc                _malloc_r
+ .text.memset   0x08007e5c       0xa4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+                0x08007e5c                memset
+ .text.__malloc_lock
+                0x08007f00        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+                0x08007f00                __malloc_lock
+ .text.__malloc_unlock
+                0x08007f0c        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+                0x08007f0c                __malloc_unlock
+ .text._sbrk_r  0x08007f18       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o)
+                0x08007f18                _sbrk_r
+ .text.startup.register_fini
+                0x08007f3c       0x14 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08007f50        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+                0x08007f50                atexit
+ .text.__libc_fini_array
+                0x08007f5c       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+                0x08007f5c                __libc_fini_array
+ .text._malloc_trim_r
+                0x08007f88       0xa0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+                0x08007f88                _malloc_trim_r
+ .text._free_r  0x08008028      0x20c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+                0x08008028                _free_r
+ .text.__retarget_lock_acquire_recursive
+                0x08008234        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x08008234                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x08008238        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x08008238                __retarget_lock_release_recursive
+ .text.__register_exitproc
+                0x0800823c       0x8c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+                0x0800823c                __register_exitproc
+ .text._sbrk    0x080082c8       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)
+                0x080082c8                _sbrk
+ *(.glue_7)
+ .glue_7        0x080082e4        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080082e4        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x080082e4        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+ *(.init)
+ .init          0x080082e4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crti.o
+                0x080082e4                _init
+ .init          0x080082e8        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtn.o
+ *(.fini)
+ .fini          0x080082f0        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crti.o
+                0x080082f0                _fini
+ .fini          0x080082f4        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtn.o
+                0x080082fc                . = ALIGN (0x4)
+                0x080082fc                _etext = .
+
+.vfp11_veneer   0x080082fc        0x0
+ .vfp11_veneer  0x080082fc        0x0 linker stubs
+
+.v4_bx          0x080082fc        0x0
+ .v4_bx         0x080082fc        0x0 linker stubs
+
+.iplt           0x080082fc        0x0
+ .iplt          0x080082fc        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+
+.rodata         0x080082fc     0x1da0
+                0x080082fc                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x080082fc       0x18 libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .rodata        0x08008314      0x1c2 libs\USBD\src\USBFS.X.a(printer_core.o)
+                0x0800839c                printer_desc
+ *fill*         0x080084d6        0x2 
+ .rodata        0x080084d8       0x10 libs\USBD\src\USBFS.X.a(usbd_core.o)
+                0x080084d8                ep_type
+ .rodata        0x080084e8       0x34 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .rodata        0x0800851c        0x4 libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .rodata        0x08008520        0x4 libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .rodata        0x08008524       0xe0 libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .rodata        0x08008604      0x488 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .rodata        0x08008a8c     0x139c libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+                0x08008a98                gst8x16Font
+ *(.rodata*)
+ .rodata.str1.4
+                0x08009e28      0x26e libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ *fill*         0x0800a096        0x2 
+ .rodata._global_impure_ptr
+                0x0800a098        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                0x0800a098                _global_impure_ptr
+                0x0800a09c                . = ALIGN (0x4)
+
+.rel.dyn        0x0800a09c        0x0
+ .rel.iplt      0x0800a09c        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0800a09c        0x0
+                0x0800a09c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0800a09c                __exidx_end = .
+
+.ARM.attributes
+                0x0800a09c       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0800a09c       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crti.o
+ .ARM.attributes
+                0x0800a0ba       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x0800a0e8       0x2a build/default/production/src/main.o
+ .ARM.attributes
+                0x0800a112       0x2a build/default/production/src/gd32f30x_it.o
+ .ARM.attributes
+                0x0800a13c       0x21 libs\GD32f30x\src\GD32f30x.X.a(startup_gd32f30x_cl.o)
+ .ARM.attributes
+                0x0800a15d       0x2a libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+ .ARM.attributes
+                0x0800a187       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .ARM.attributes
+                0x0800a1b1       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .ARM.attributes
+                0x0800a1db       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .ARM.attributes
+                0x0800a205       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .ARM.attributes
+                0x0800a22f       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .ARM.attributes
+                0x0800a259       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .ARM.attributes
+                0x0800a283       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .ARM.attributes
+                0x0800a2ad       0x2a libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .ARM.attributes
+                0x0800a2d7       0x2a libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+ .ARM.attributes
+                0x0800a301       0x2a libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .ARM.attributes
+                0x0800a32b       0x2e libs\USBD\src\USBFS.X.a(printer_core.o)
+ .ARM.attributes
+                0x0800a359       0x2e libs\USBD\src\USBFS.X.a(usbd_core.o)
+ .ARM.attributes
+                0x0800a387       0x2e libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .ARM.attributes
+                0x0800a3b5       0x2e libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .ARM.attributes
+                0x0800a3e3       0x2e libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+ .ARM.attributes
+                0x0800a411       0x2e libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .ARM.attributes
+                0x0800a43f       0x2e libs\USBD\src\USBFS.X.a(usbd_transc.o)
+ .ARM.attributes
+                0x0800a46d       0x2a libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .ARM.attributes
+                0x0800a497       0x2a libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .ARM.attributes
+                0x0800a4c1       0x2a libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .ARM.attributes
+                0x0800a4eb       0x2a libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .ARM.attributes
+                0x0800a515       0x2a libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .ARM.attributes
+                0x0800a53f       0x2a libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+ .ARM.attributes
+                0x0800a569       0x2a libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+ .ARM.attributes
+                0x0800a593       0x2a libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .ARM.attributes
+                0x0800a5bd       0x2a libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+ .ARM.attributes
+                0x0800a5e7       0x2a libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+ .ARM.attributes
+                0x0800a611       0x2a libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .ARM.attributes
+                0x0800a63b       0x2a libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+ .ARM.attributes
+                0x0800a665       0x2a libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+ .ARM.attributes
+                0x0800a68f       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0800a6bd       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x0800a6eb       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0800a719       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0800a747       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0800a775       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0800a7a3       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0800a7d1       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0800a7ff       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0800a82d       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0800a85b       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0800a889       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0800a8b7       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0800a8e5       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0800a913       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0800a941       0x1e c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtn.o
+
+.preinit_array  0x0800a09c        0x0
+                0x0800a09c                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x0800a09c                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0800a09c        0x8
+                0x0800a09c                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0x0800a09c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x0800a0a0        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0800a0a4                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0800a0a4        0x4
+                0x0800a0a4                PROVIDE (__fini_array_start = .)
+ *(.fini_array*)
+ .fini_array    0x0800a0a4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                0x0800a0a8                PROVIDE (__fini_array_end = .)
+                0x0800a0a8                _sidata = LOADADDR (.data)
+
+.data           0x20000000      0x8fc load address 0x0800a0a8
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000        0x4 libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+                0x20000000                SystemCoreClock
+ .data          0x20000004       0xb6 libs\USBD\src\USBFS.X.a(printer_core.o)
+                0x20000008                usbd_printer_cb
+ *(.data*)
+ *fill*         0x200000ba        0x2 
+ .data._impure_ptr
+                0x200000bc        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+                0x200000bc                _impure_ptr
+ .data.impure_data
+                0x200000c0      0x428 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-impure.o)
+ .data.__malloc_av_
+                0x200004e8      0x408 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x200004e8                __malloc_av_
+ .data.__malloc_sbrk_base
+                0x200008f0        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x200008f0                __malloc_sbrk_base
+ .data.__malloc_trim_threshold
+                0x200008f4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x200008f4                __malloc_trim_threshold
+ .data.__atexit_recursive_mutex
+                0x200008f8        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+                0x200008f8                __atexit_recursive_mutex
+                0x200008fc                . = ALIGN (0x4)
+                0x200008fc                _edata = .
+
+.igot.plt       0x200008fc        0x0 load address 0x0800a9a4
+ .igot.plt      0x200008fc        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x200008fc                . = ALIGN (0x4)
+
+.bss            0x20000900     0xd6d0 load address 0x0800a9a4
+                0x20000900                _sbss = .
+                0x20000900                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000900       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .bss           0x2000091c      0x3c8 build/default/production/src/main.o
+                0x2000091c                usbd_printer
+ .bss           0x20000ce4        0x8 libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+                0x20000ce4                usbfs_prescaler
+                0x20000ce8                delay_time
+ .bss           0x20000cec       0x1c libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .bss           0x20000d08       0x4c libs\USBD\src\USBFS.X.a(printer_core.o)
+                0x20000d10                g_printer_data_buf
+ .bss           0x20000d54        0x3 libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ *fill*         0x20000d57        0x1 
+ .bss           0x20000d58     0x203c libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .bss           0x20002d94       0x1c libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .bss           0x20002db0     0x4878 libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .bss           0x20007628     0x4888 libs\smartPrinter\src\smartPrinter.X.a(font.o)
+                0x2000beac                gutDipSwitch
+ .bss           0x2000beb0      0xff8 libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+                0x2000beb0                gutUserBuffer
+ .bss           0x2000cea8       0x44 libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+                0x2000cea8                gu8UartIndex
+                0x2000ceac                gu8UartPacket
+ .bss           0x2000ceec     0x1040 libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ *fill*         0x2000df2c        0x4 
+ .bss           0x2000df30       0x1d libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+ *fill*         0x2000df4d        0x3 
+ .bss           0x2000df50        0x8 libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+ .bss           0x2000df58       0x34 libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+ *(.bss*)
+ .bss.__malloc_current_mallinfo
+                0x2000df8c       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x2000df8c                __malloc_current_mallinfo
+ .bss.__malloc_max_sbrked_mem
+                0x2000dfb4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x2000dfb4                __malloc_max_sbrked_mem
+ .bss.__malloc_max_total_mem
+                0x2000dfb8        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x2000dfb8                __malloc_max_total_mem
+ .bss.__malloc_top_pad
+                0x2000dfbc        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+                0x2000dfbc                __malloc_top_pad
+ .bss.__lock___atexit_recursive_mutex
+                0x2000dfc0        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x2000dfc0                __lock___atexit_recursive_mutex
+ *fill*         0x2000dfc1        0x3 
+ .bss.__lock___malloc_recursive_mutex
+                0x2000dfc4        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+                0x2000dfc4                __lock___malloc_recursive_mutex
+ *fill*         0x2000dfc5        0x3 
+ .bss.errno     0x2000dfc8        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+                0x2000dfc8                errno
+ .bss.heap_end.0
+                0x2000dfcc        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)
+ *(COMMON)
+                0x2000dfd0                . = ALIGN (0x4)
+                0x2000dfd0                _ebss = .
+                0x2000dfd0                __bss_end__ = _ebss
+                0x2000dfd0                . = ALIGN (0x8)
+                0x2000dfd0                PROVIDE (end = _ebss)
+                [!provide]                PROVIDE (_end = _ebss)
+
+.stack          0x20017800      0x800 load address 0x2000dfd0
+                [!provide]                PROVIDE (_heap_end = .)
+                0x00000800                . = __stack_size
+ *fill*         0x20017800      0x800 
+                0x20018000                PROVIDE (_sp = .)
+START GROUP
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m/nofp\libgcc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a
+END GROUP
+OUTPUT(dist/default/production/smartPrinterApp.X.production.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x4d
+ .comment       0x00000000       0x4d build/default/production/src/main.o
+                                 0x4e (size before relaxing)
+ .comment       0x0000004d       0x4e build/default/production/src/gd32f30x_it.o
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(system_gd32f30x.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_adc.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_exti.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_gpio.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_misc.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_rcu.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_spi.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_timer.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gd32f30x_usart.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(gs32f30x_usb.o)
+ .comment       0x0000004d       0x4e libs\GD32f30x\src\GD32f30x.X.a(system.o)
+ .comment       0x0000004d       0x4e libs\USBD\src\USBFS.X.a(printer_core.o)
+ .comment       0x0000004d       0x4e libs\USBD\src\USBFS.X.a(usbd_core.o)
+ .comment       0x0000004d       0x4e libs\USBD\src\USBFS.X.a(usbd_enum.o)
+ .comment       0x0000004d       0x4e libs\USBD\src\USBFS.X.a(drv_usbd_int.o)
+ .comment       0x0000004d       0x4e libs\USBD\src\USBFS.X.a(drv_usb_core.o)
+ .comment       0x0000004d       0x4e libs\USBD\src\USBFS.X.a(drv_usb_dev.o)
+ .comment       0x0000004d       0x4e libs\USBD\src\USBFS.X.a(usbd_transc.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(escpos.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(escpos_commands.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(fifo.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(PrintHead.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(font.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(userDefineChar_BitImageDownload.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(usart.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(xm25qh16b.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(UserStatus.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(cutOperation.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(utility.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(FeedButton.o)
+ .comment       0x0000004d       0x4e libs\smartPrinter\src\smartPrinter.X.a(Fonts.o)
+
+.debug_frame    0x00000000      0x3d4
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-init.o)
+ .debug_frame   0x0000002c       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-malloc.o)
+ .debug_frame   0x0000005c       0x4c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000000a8       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-memset.o)
+ .debug_frame   0x000000d4       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00000104       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000130       0x5c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000018c       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-atexit.o)
+ .debug_frame   0x000001ac       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-fini.o)
+ .debug_frame   0x000001e0       0x8c c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-freer.o)
+ .debug_frame   0x0000026c       0xb0 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-lock.o)
+ .debug_frame   0x0000031c       0x64 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-reent.o)
+ .debug_frame   0x00000380       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x000003b4       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libnosys.a(sbrk.o)

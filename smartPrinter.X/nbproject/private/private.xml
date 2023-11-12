@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/cutOperation.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/fonts/font_iso_8859_7_12x24.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/fonts/Fonts.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/Printhead.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/ImagesMangement.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/ImagesMangement.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/Core/GD32F307RC/inc/Peripherals/gd32f30x_timer.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/AllFilesInc.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/UserStatus.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/Core/GD32F307RC/inc/CMSIS/GD/GD32F30x/Include/gd32f30x.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/xm25qh16b.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/FeedButton.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/escpos_commands.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/Feedbutton.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/userDefineChar_BitImageDownload.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/fonts/font_iso_8859_7_8x16.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/userDefineCharAndBitImag.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/PrintHead.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/font.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/fifo.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/usart.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/escpos.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/nbproject/configurations.xml</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/utility.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/cutOperation.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/UserStatus.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/fifo.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/escpos.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/usart.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/font.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/fonts/font_iso_8859_7_9x17.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/Core/GD32F307RC/inc/Peripherals/gd32f30x_gpio.h</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/src/pagemode.c</file>
+            <file>file:/E:/New%20Version%20Theraml/smartPrinter.X/inc/standmode.h</file>
+        </group>
+    </open-files>
+</project-private>
